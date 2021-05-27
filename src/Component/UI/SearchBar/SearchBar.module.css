@@ -1,0 +1,13 @@
+.Input{
+    border: none;
+    outline: none;
+    height: 1.9rem;
+    padding: 5px;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 4px rgba(119, 119, 119, 0.726);
+    border-radius: 10px;
+}
+.Input:hover {
+    transform: scale(1.2);
+    transition-duration: .5s;
+}

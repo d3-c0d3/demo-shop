@@ -1,0 +1,32 @@
+.card{
+    /* border:1px solid black; */
+    margin-top: 10px;
+    display:flex;
+    height: 100%;
+    width: 20rem;
+    padding-bottom:5px ;
+    border-radius: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    /* font-size: 10px; */
+    box-sizing: border-box;
+    box-shadow: 3px 3px 5px #777;
+    transition: ease-out;
+   
+}
+.btn{
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 2px #777;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(247, 36, 36);
+    color: white;
+}
+.btn:hover{
+    transform: scale(1.08);
+    
+    transition-duration:.2s;
+}

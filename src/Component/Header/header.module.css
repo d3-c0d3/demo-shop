@@ -1,0 +1,40 @@
+.Header{
+    height: 56px;
+    background-color: rgb(38, 201, 125);
+    box-sizing: border-box;
+    box-shadow: 2px 3px 5px #777;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top:0px;
+    left:0px;
+    position:fixed;
+    width:100%;
+}
+.componentContainer{
+    align-items: center;
+    display: flex;
+    width: 30rem;
+    justify-content: space-evenly;
+}
+/* .componentContainer input{
+    border: none;
+    outline: none;
+    height: 1.9rem;
+    padding: 5px;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 4px rgba(119, 119, 119, 0.726);
+    border-radius: 10px;
+} */
+.CartIcon{
+    /* border: 1px solid black; */
+    padding: 5px;
+    box-sizing: border-box;
+    /* box-shadow: 2px 2px 3px #777; */
+    cursor: pointer;
+}
+.CartIcon:hover, .componentContainer input:hover{
+    transform: scale(1.2);
+    transition-duration: .5s;
+}
