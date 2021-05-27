@@ -14,7 +14,7 @@ class App extends Component{
     <BrowserRouter>
     
     <Switch>
-    <Route path='/' exact component={ProductsList}/>
+    <Route path='/demo-shop' exact component={ProductsList}/>
      <Route path='/product/:productId' component={ProductDetails} />
     <Route  to="/cart" component={SelectedProductList}/>
      </Switch>
